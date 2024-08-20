@@ -1,1 +1,1 @@
-# Resources/Cheatsheets/Two_Pointers_CheatSheet.md
+# Two Pointers CheatSheet

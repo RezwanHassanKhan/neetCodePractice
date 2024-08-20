@@ -1,1 +1,1 @@
-# Resources/Cheatsheets/Arrays_and_Strings_CheatSheet.md
+# Arrays and Strings CheatSheet

@@ -16,101 +16,165 @@ The goal of this repository is to provide a structured approach to studying and 
 
 ## Repository Structure
 
-The repository is organized into several folders, each representing a major topic or problem-solving pattern:
+The repository is organized into several folders, each representing a major topic or problem-solving pattern. Each topic folder is further divided into subfolders based on the difficulty level: Easy, Medium, and Hard.
 
 ```
 NeetCode-Roadmap/
 ├── README.md
 ├── Arrays_and_Strings/
-│   ├── Problems/
-│   │   ├── Problem1.py
-│   │   ├── Problem2.py
-│   ├── Solutions/
-│   │   ├── Problem1_Solution.py
-│   │   ├── Problem2_Solution.py
-│   ├── Notes.py
+│   ├── Easy/
+│   │   ├── Problems/
+│   │   │   ├── Problem1.md
+│   │   ├── Solutions/
+│   │   │   ├── Problem1_Solution.py
+│   ├── Medium/
+│   │   ├── Problems/
+│   │   │   ├── Problem2.md
+│   │   ├── Solutions/
+│   │   │   ├── Problem2_Solution.py
+│   ├── Hard/
+│   │   ├── Problems/
+│   │   │   ├── Problem3.md
+│   │   ├── Solutions/
+│   │   │   ├── Problem3_Solution.py
 ├── Two_Pointers/
-│   ├── Problems/
-│   │   ├── Problem1.py
-│   │   ├── Problem2.py
-│   ├── Solutions/
-│   │   ├── Problem1_Solution.py
-│   │   ├── Problem2_Solution.py
-│   ├── Notes.py
+│   ├── Easy/
+│   │   ├── Problems/
+│   │   │   ├── Problem1.md
+│   │   ├── Solutions/
+│   │   │   ├── Problem1_Solution.py
+│   ├── Medium/
+│   │   ├── Problems/
+│   │   │   ├── Problem2.md
+│   │   ├── Solutions/
+│   │   │   ├── Problem2_Solution.py
+│   ├── Hard/
+│   │   ├── Problems/
+│   │   │   ├── Problem3.md
+│   │   ├── Solutions/
+│   │   │   ├── Problem3_Solution.py
 ├── Sliding_Window/
-│   ├── Problems/
-│   │   ├── Problem1.py
-│   │   ├── Problem2.py
-│   ├── Solutions/
-│   │   ├── Problem1_Solution.py
-│   │   ├── Problem2_Solution.py
-│   ├── Notes.py
+│   ├── Easy/
+│   │   ├── Problems/
+│   │   │   ├── Problem1.md
+│   │   ├── Solutions/
+│   │   │   ├── Problem1_Solution.py
+│   ├── Medium/
+│   │   ├── Problems/
+│   │   │   ├── Problem2.md
+│   │   ├── Solutions/
+│   │   │   ├── Problem2_Solution.py
+│   ├── Hard/
+│   │   ├── Problems/
+│   │   │   ├── Problem3.md
+│   │   ├── Solutions/
+│   │   │   ├── Problem3_Solution.py
 ├── Binary_Search/
-│   ├── Problems/
-│   │   ├── Problem1.py
-│   │   ├── Problem2.py
-│   ├── Solutions/
-│   │   ├── Problem1_Solution.py
-│   │   ├── Problem2_Solution.py
-│   ├── Notes.py
+│   ├── Easy/
+│   │   ├── Problems/
+│   │   │   ├── Problem1.md
+│   │   ├── Solutions/
+│   │   │   ├── Problem1_Solution.py
+│   ├── Medium/
+│   │   ├── Problems/
+│   │   │   ├── Problem2.md
+│   │   ├── Solutions/
+│   │   │   ├── Problem2_Solution.py
+│   ├── Hard/
+│   │   ├── Problems/
+│   │   │   ├── Problem3.md
+│   │   ├── Solutions/
+│   │   │   ├── Problem3_Solution.py
 ├── Linked_List/
-│   ├── Problems/
-│   │   ├── Problem1.py
-│   │   ├── Problem2.py
-│   ├── Solutions/
-│   │   ├── Problem1_Solution.py
-│   │   ├── Problem2_Solution.py
-│   ├── Notes.py
+│   ├── Easy/
+│   │   ├── Problems/
+│   │   │   ├── Problem1.md
+│   │   ├── Solutions/
+│   │   │   ├── Problem1_Solution.py
+│   ├── Medium/
+│   │   ├── Problems/
+│   │   │   ├── Problem2.md
+│   │   ├── Solutions/
+│   │   │   ├── Problem2_Solution.py
+│   ├── Hard/
+│   │   ├── Problems/
+│   │   │   ├── Problem3.md
+│   │   ├── Solutions/
+│   │   │   ├── Problem3_Solution.py
 ├── Trees/
-│   ├── Problems/
-│   │   ├── Problem1.py
-│   │   ├── Problem2.py
-│   ├── Solutions/
-│   │   ├── Problem1_Solution.py
-│   │   ├── Problem2_Solution.py
-│   ├── Notes.py
+│   ├── Easy/
+│   │   ├── Problems/
+│   │   │   ├── Problem1.md
+│   │   ├── Solutions/
+│   │   │   ├── Problem1_Solution.py
+│   ├── Medium/
+│   │   ├── Problems/
+│   │   │   ├── Problem2.md
+│   │   ├── Solutions/
+│   │   │   ├── Problem2_Solution.py
+│   ├── Hard/
+│   │   ├── Problems/
+│   │   │   ├── Problem3.md
+│   │   ├── Solutions/
+│   │   │   ├── Problem3_Solution.py
 ├── Graphs/
-│   ├── Problems/
-│   │   ├── Problem1.py
-│   │   ├── Problem2.py
-│   ├── Solutions/
-│   │   ├── Problem1_Solution.py
-│   │   ├── Problem2_Solution.py
-│   ├── Notes.py
+│   ├── Easy/
+│   │   ├── Problems/
+│   │   │   ├── Problem1.md
+│   │   ├── Solutions/
+│   │   │   ├── Problem1_Solution.py
+│   ├── Medium/
+│   │   ├── Problems/
+│   │   │   ├── Problem2.md
+│   │   ├── Solutions/
+│   │   │   ├── Problem2_Solution.py
+│   ├── Hard/
+│   │   ├── Problems/
+│   │   │   ├── Problem3.md
+│   │   ├── Solutions/
+│   │   │   ├── Problem3_Solution.py
 ├── Dynamic_Programming/
-│   ├── Problems/
-│   │   ├── Problem1.py
-│   │   ├── Problem2.py
-│   ├── Solutions/
-│   │   ├── Problem1_Solution.py
-│   │   ├── Problem2_Solution.py
-│   ├── Notes.py
+│   ├── Easy/
+│   │   ├── Problems/
+│   │   │   ├── Problem1.md
+│   │   ├── Solutions/
+│   │   │   ├── Problem1_Solution.py
+│   ├── Medium/
+│   │   ├── Problems/
+│   │   │   ├── Problem2.md
+│   │   ├── Solutions/
+│   │   │   ├── Problem2_Solution.py
+│   ├── Hard/
+│   │   ├── Problems/
+│   │   │   ├── Problem3.md
+│   │   ├── Solutions/
+│   │   │   ├── Problem3_Solution.py
 └── Resources/
-    ├── Roadmap.py
-    ├── Cheatsheets/Arrays_and_Strings_CheatSheet.py
-    ├── Cheatsheets/Two_Pointers_CheatSheet.py
-    ├── Books_and_Links.py
+    ├── Roadmap.md
+    ├── Cheatsheets/Arrays_and_Strings_CheatSheet.md
+    ├── Cheatsheets/Two_Pointers_CheatSheet.md
+    ├── Books_and_Links.md
 ```
 
 ## How to Use This Repository
 
 1. **Start with the Roadmap:**
-   - Review the `Roadmap.py` in the `Resources/` folder to understand the suggested order for studying each topic.
+   - Review the `Roadmap.md` in the `Resources/` folder to understand the suggested order for studying each topic.
 
 2. **Study by Topic:**
-   - Begin with a topic of your choice, such as `Arrays_and_Strings`, and read through the `Notes.py` file to build a foundational understanding.
-   - Move on to the `Problems/` subfolder, where you will find Python files containing problem statements.
+   - Begin with a topic of your choice, such as `Arrays_and_Strings`, and choose a difficulty level (Easy, Medium, or Hard).
+   - Read through the problem statements in the `Problems/` subfolder.
+   - Attempt to solve the problems in the `Problems/` subfolder before looking at the solutions.
 
 3. **Practice and Solve Problems:**
-   - Attempt to solve the problems in the `Problems/` subfolder before looking at the solutions.
-   - Write your code in the `.py` files provided.
+   - Write your solutions in the corresponding `.py` files provided.
 
 4. **Review Solutions:**
    - Compare your solutions with the provided `Solutions/` subfolder.
    - Analyze and understand any differences between your approach and the provided solutions.
 
 5. **Use Additional Resources:**
-   - Refer to the `Cheatsheets/` and `Books_and_Links.py` for quick references and further study materials.
+   - Refer to the `Cheatsheets/` and `Books_and_Links.md` for quick references and further study materials.
 
 ## Contributing
 
